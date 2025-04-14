@@ -71,6 +71,7 @@ header{
     width: 100%;
     backdrop-filter: blur(4px);
     padding-right: 40px;
+    z-index: 3;
 }
 
 .black{
@@ -92,6 +93,7 @@ object-fit: cover;
 
 .sectionhero{
     height: 100vh;
+    position: relative;
 }
 
 .divhero{
@@ -115,3 +117,45 @@ h1{
 .divhero > p{
     font-size: 25px;
 }
+
+.cartev{
+    background-color: #4d3e9a52;
+    display: block;
+    width: 23%;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    backdrop-filter: blur(4px);
+}
+
+.sectionservice{
+    position: relative;
+    top: -60px;
+}
+
+
+.pad1{
+    padding-bottom: 20px;
+
+}
+
+.pad2{
+    padding-bottom: 40px;
+    width: 50%;
+}
+
+.pad3{
+    padding-bottom: 60px;
+}
+
+.olr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 20px; /* espace entre les images, ajustable */
+  }
+
+  .pol{
+  
+  }
+
